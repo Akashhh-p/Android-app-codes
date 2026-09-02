@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_select_all"
+        android:title="Select All"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_clear_selection"
+        android:title="Clear Selection"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_export_saf"
+        android:title="SAF Export Selected"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_import_saf"
+        android:title="SAF Import to App"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_delete_all_sms"
+        android:title="Delete All SMS"
+        app:showAsAction="never" />
+</menu>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_export_app"
+        android:title="@string/export_app"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_import_app"
+        android:title="@string/import_app"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_export_saf"
+        android:title="@string/export_saf"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_import_saf"
+        android:title="@string/import_saf"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_delete_selected"
+        android:title="@string/delete_selected"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_clear_all"
+        android:title="@string/clear_all_menu"
+        app:showAsAction="never" />
+
+</menu>
