@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">IntentDemoNavigation</string>
+    <string name="menu_home">Home</string>
+    <string name="menu_components">Components</string>
+    <string name="menu_settings">Settings</string>
+    <string name="menu_logout">Logout</string>
+    <string name="fragment_demo_title">Fragment Manager Demo</string>
+    <string name="btn_add_fragment">ADD FRAGMENT</string>
+    <string name="lbl_select_fragment">Select Fragment:</string>
+    <string name="lbl_display_area">Fragment Display Area:</string>
+    <string name="status_no_fragments">Status: No fragments created</string>
+    <string name="backstack_count">Backstack Count: %1$d</string>
+    <string name="btn_back_to_dashboard">BACK TO DASHBOARD</string>
+    <string name="btn_fragment_manager_demo">FRAGMENT MANAGER DEMO</string>
+</resources>

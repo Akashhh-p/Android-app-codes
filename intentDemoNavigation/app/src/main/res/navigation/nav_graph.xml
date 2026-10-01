@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/loginFragment">
+
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="com.example.intentdemonavigation.fragments.LoginFragment"
+        android:label="Login"
+        tools:layout="@layout/fragment_login">
+        <action
+            android:id="@+id/action_loginFragment_to_homeFragment"
+            app:destination="@id/homeFragment"
+            app:popUpTo="@id/loginFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.intentdemonavigation.fragments.HomeFragment"
+        android:label="Home"
+        tools:layout="@layout/fragment_home">
+        <action
+            android:id="@+id/action_homeFragment_to_dashboardFragment"
+            app:destination="@id/dashboardFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_fragmentDemoFragment"
+            app:destination="@id/fragmentDemoFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/fragmentDemoFragment"
+        android:name="com.example.intentdemonavigation.fragments.FragmentDemoFragment"
+        android:label="Fragment Demo"
+        tools:layout="@layout/fragment_fragment_demo" />
+
+    <fragment
+        android:id="@+id/dashboardFragment"
+        android:name="com.example.intentdemonavigation.fragments.DashboardFragment"
+        android:label="@string/menu_components"
+        tools:layout="@layout/fragment_dashboard">
+        <action
+            android:id="@+id/action_dashboardFragment_to_batteryFragment"
+            app:destination="@id/batteryFragment" />
+        <action
+            android:id="@+id/action_dashboardFragment_to_loginFragment"
+            app:destination="@id/loginFragment"
+            app:popUpTo="@id/nav_graph"
+            app:popUpToInclusive="true" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="com.example.intentdemonavigation.fragments.SettingsFragment"
+        android:label="@string/menu_settings"
+        tools:layout="@layout/fragment_settings">
+        <action
+            android:id="@+id/action_settingsFragment_to_loginFragment"
+            app:destination="@id/loginFragment"
+            app:popUpTo="@id/nav_graph"
+            app:popUpToInclusive="true" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/batteryFragment"
+        android:name="com.example.intentdemonavigation.fragments.BatteryFragment"
+        android:label="Battery"
+        tools:layout="@layout/fragment_battery" />
+
+</navigation>

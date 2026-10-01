@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/dashboardScrollView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:scrollbars="vertical"
+    android:fadeScrollbars="false">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:id="@+id/tvDashboardTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Components"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="32dp"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnBattery"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="BATTERY"
+            android:layout_marginBottom="8dp"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnContacts"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="CONTACTS"
+            android:layout_marginBottom="8dp"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnDialer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="DIALER"
+            android:layout_marginBottom="8dp"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnCamera"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="CAMERA"
+            android:layout_marginBottom="8dp"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnBrowser"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="BROWSER"
+            android:layout_marginBottom="8dp"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnAkash"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="AKASH"
+            android:layout_marginBottom="8dp"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnStartWorker"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="START BACKGROUND WORKER"
+            android:layout_marginBottom="8dp"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnStartMusic"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="START MUSIC"
+            android:layout_marginBottom="8dp"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnStopMusic"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="STOP MUSIC"
+            android:layout_marginBottom="8dp"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnStartService"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="START SERVICE"
+            android:layout_marginBottom="8dp"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnStopService"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="STOP SERVICE"
+            android:layout_marginBottom="8dp"/>
+
+        <!-- Spacer at the bottom -->
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="32dp" />
+
+    </LinearLayout>
+</ScrollView>

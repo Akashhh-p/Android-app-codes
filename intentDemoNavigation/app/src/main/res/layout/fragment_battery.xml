@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:scrollbars="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Battery Information"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView android:id="@+id/tv_info_percentage" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textSize="18sp" android:layout_marginBottom="8dp"/>
+        <TextView android:id="@+id/tv_info_status" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textSize="18sp" android:layout_marginBottom="8dp"/>
+        <TextView android:id="@+id/tv_info_plugged" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textSize="18sp" android:layout_marginBottom="8dp"/>
+        <TextView android:id="@+id/tv_info_health" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textSize="18sp" android:layout_marginBottom="8dp"/>
+        <TextView android:id="@+id/tv_info_temp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textSize="18sp" android:layout_marginBottom="8dp"/>
+        <TextView android:id="@+id/tv_info_voltage" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textSize="18sp" android:layout_marginBottom="8dp"/>
+        <TextView android:id="@+id/tv_info_capacity_level" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textSize="18sp" android:layout_marginBottom="8dp"/>
+        <TextView android:id="@+id/tv_info_charge_counter" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textSize="18sp" android:layout_marginBottom="8dp"/>
+        <TextView android:id="@+id/tv_info_battery_low" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textSize="18sp" android:layout_marginBottom="8dp"/>
+        <TextView android:id="@+id/tv_info_scale" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textSize="18sp" android:layout_marginBottom="8dp"/>
+        <TextView android:id="@+id/tv_info_cycles" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textSize="18sp" android:layout_marginBottom="8dp"/>
+
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>
