@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- Surface & Display -->
+    <color name="calc_background">#F1F3F4</color>
+    <color name="display_bg">#151515</color>
+    <color name="display_border">#222222</color>
+    <color name="display_digit">#9BE59F</color>
+
+    <!-- Number Buttons -->
+    <color name="number_btn_bg">#37474F</color>
+    <color name="number_btn_pressed">#263238</color>
+    <color name="number_btn_shadow">#18222C</color>
+
+    <!-- Operator Buttons (Left Stack) -->
+    <color name="operator_btn_bg">#455A64</color>
+    <color name="operator_btn_pressed">#37474F</color>
+    <color name="operator_btn_shadow">#061F36</color>
+
+    <!-- Arithmetic / Plus Buttons -->
+    <color name="arithmetic_btn_bg">#00695C</color>
+    <color name="arithmetic_btn_pressed">#004D40</color>
+
+    <!-- Function Buttons -->
+    <color name="function_btn_bg">#455A64</color>
+    <color name="function_btn_pressed">#37474F</color>
+    <color name="function_btn_shadow">#1A202C</color>
+
+    <!-- Special Buttons (%, #/◇, *) -->
+    <color name="special_btn_bg">#546E7A</color>
+    <color name="special_btn_pressed">#455A64</color>
+
+    <!-- Memory Buttons -->
+    <color name="memory_btn_bg">#006064</color>
+    <color name="memory_btn_pressed">#004D40</color>
+    <color name="memory_btn_shadow">#061D23</color>
+
+    <!-- Minus Button -->
+    <color name="minus_btn_bg">#C0392B</color>
+    <color name="minus_btn_pressed">#A93226</color>
+    <color name="minus_btn_shadow">#6B2018</color>
+
+    <!-- Change Button -->
+    <color name="change_btn_bg">#E67E22</color>
+    <color name="change_btn_pressed">#D35400</color>
+    <color name="change_btn_shadow">#78350F</color>
+
+    <!-- Slider Track & Knob -->
+    <color name="switch_track">#4A4A4A</color>
+    <color name="switch_knob">#000000</color>
+
+    <!-- Compatibility Aliases -->
+    <color name="cream_button">@color/number_btn_bg</color>
+    <color name="cream_button_pressed">@color/number_btn_pressed</color>
+    <color name="cream_button_shadow">@color/number_btn_shadow</color>
+
+    <color name="gray_button">@color/function_btn_bg</color>
+    <color name="gray_button_pressed">@color/function_btn_pressed</color>
+    <color name="gray_button_shadow">@color/function_btn_shadow</color>
+
+    <color name="blue_button">@color/memory_btn_bg</color>
+    <color name="blue_button_pressed">@color/memory_btn_pressed</color>
+    <color name="blue_button_shadow">@color/memory_btn_shadow</color>
+
+    <color name="red_button">@color/minus_btn_bg</color>
+    <color name="red_button_pressed">@color/minus_btn_pressed</color>
+    <color name="red_button_shadow">@color/minus_btn_shadow</color>
+
+    <color name="orange_button">@color/change_btn_bg</color>
+    <color name="orange_button_pressed">@color/change_btn_pressed</color>
+    <color name="orange_button_shadow">@color/change_btn_shadow</color>
+
+    <color name="teal_button">@color/operator_btn_bg</color>
+    <color name="teal_button_pressed">@color/operator_btn_pressed</color>
+    <color name="teal_button_shadow">@color/operator_btn_shadow</color>
+</resources>

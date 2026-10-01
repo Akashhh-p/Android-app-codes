@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Sharp EL-1801V Precise Key Proportions -->
+    <dimen name="button_width">46dp</dimen>
+    <dimen name="button_height">48dp</dimen>
+    <dimen name="gap_horizontal">4dp</dimen>
+    <dimen name="gap_vertical">6dp</dimen>
+
+    <!-- Top Display and Margins -->
+    <dimen name="display_height">110dp</dimen>
+    <dimen name="calculator_padding">12dp</dimen>
+
+    <!-- Sub-button sizing for composite keys -->
+    <dimen name="sub_button_text_size">9sp</dimen>
+</resources>
